@@ -1,0 +1,16 @@
+{
+    "name": "Live Navigation Ceck",
+    "version": "1.0",
+    "description": "Live Navigation Ceck!",
+    "manifest_version": 2,
+    "permissions": ["<all_urls>"],
+    "icons": {
+        "128": "assets/image.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://www.britishgas.co.uk/*"],
+          "js": ["app/src/content.js"]
+        }
+      ]
+  }
