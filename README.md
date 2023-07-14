@@ -1,3 +1,3 @@
 # ChromeExtension
 
-This is simple chrome extension which will helps to alert tester is testing environment navigating production by accident.
+This is a simple chrome extension that will help to alert the tester if the testing environment navigates production by accident.
